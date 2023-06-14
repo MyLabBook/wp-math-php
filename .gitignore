@@ -1,4 +1,1 @@
-.vscode/*
-!vendor/autoload.php
-!.vscode/launch.json
-!.vscode/settings.json
+/vendor

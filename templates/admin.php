@@ -1,0 +1,1 @@
+<h1>WpMathPhp Plugin</h1>
