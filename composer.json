@@ -1,0 +1,45 @@
+{
+    "name": "mylabbook/wp-math-php",
+    "description": "This encapsulates the MathPHP library for use in a WordPress plugin.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "homepage": "https://github.com/mylabbook/wp-math-php/",
+    "authors": [
+      {
+        "name": "William Kudrle",
+        "email": "william.kudrle@mylabbook.com",
+        "homepage": "https://mylabbook.org"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/mylabbook/wp-math-php/issues"
+    },
+    "config": {
+      "preferred-install": "dist",
+      "platform": {
+          "php": "8.0"
+      },
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ],
+    "require": {
+      "php": "8.0",
+      "composer/installers": "^1.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "spatie/ray": "^1.29.0"
+    },
+    "autoload": {
+		"psr-4": {
+		}
+	},
+    "minimum-stability": "stable"
+  }
