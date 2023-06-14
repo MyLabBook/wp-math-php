@@ -1,2 +1,2 @@
-# wp-math-php
-WordPress plugin that encapsulates the math-php library
+# WordPress Plugin for the MathPHP Library
+This WordPress plugin encapsulates the library found at https://github.com/markrogoyski/math-php. The initial goal is to expose the statistical functions for data analysis. 
