@@ -31,4 +31,12 @@ class BaseController
 			'chat_manager' => 'Activate Chat Manager'
 		);
 	}
+
+
+	public function activated( string $key )
+	{
+		$option = get_option( 'wp_math_php_plugin' );
+
+		return isset( $option[ $key ] ) ? $option[ $key ] : false;
+	}
 }

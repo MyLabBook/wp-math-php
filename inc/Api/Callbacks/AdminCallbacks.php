@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  WpMathPhpPlugin
  */
 namespace Inc\Api\Callbacks;
 
@@ -26,6 +26,16 @@ class AdminCallbacks extends BaseController
 	public function adminWidget()
 	{
 		return require_once( "$this->plugin_path/templates/widget.php" );
+	}
+
+	public function adminAuth()
+	{
+		echo "<h1>Templates Manager</h1>";
+	}
+
+	public function adminChat()
+	{
+		echo "<h1>Chat Manager</h1>";
 	}
 
 	// public function alecadddOptionsGroup( $input )
